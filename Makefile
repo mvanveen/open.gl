@@ -7,5 +7,8 @@ all: $(TARGETS)
 lesson1:
 	$(CC) $(CFLAGS) lesson1.c
 
+lesson2:
+	$(CC) $(CFLAGS) lesson2.c
+
 clean:
 	rm -f *.out

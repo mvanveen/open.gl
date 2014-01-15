@@ -4,20 +4,6 @@
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_opengl.h>
 
-// Specify prototype of function
-// typedef void (*GENBUFFERS) (GLsizei, GLuint*);
-//
-//// Load address of function and assign it to a function pointer
-//GENBUFFERS glGenBuffers = (GENBUFFERS)wglGetProcAddress("glGenBuffers");
-//// or Linux:
-//GENBUFFERS glGenBuffers = (GENBUFFERS)glXGetProcAddress("glGenBuffers");
-//// or OSX:
-//GENBUFFERS glGenBuffers = (GENBUFFERS)NSGLGetProcAddress("glGenBuffers");
-//
-//// Call function as normal
-//int buffer;
-//glGenBuffers(1, &buffer);
-
 
 int main(int argc, char *argv[]) {
   SDL_Init(SDL_INIT_VIDEO);
